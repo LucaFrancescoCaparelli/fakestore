@@ -15,6 +15,11 @@ The page will reload when you make changes.
 
 Builds the app for production to the `dist` folder.
 
+
+# Live Demo
+
+Here you will find a demo of the application [LIVE DEMO](https://glittering-crepe-28edc8.netlify.app/login).
+
 ## Libraries used
 The following libraries were used
 
