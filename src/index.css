@@ -14,3 +14,113 @@ body,
 .App {
   height: 100%;
 }
+
+.logo {
+  width: 20%;
+  height: auto;
+  background: #009688;
+  border-radius: 18%;
+  display: block;
+  margin: 0;
+}
+
+/*--- CARD ---*/
+.card {
+  width: 18rem;
+  height: 100% !important;
+  margin: 0 auto;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.card:hover {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card-text span {
+  display: block;
+}
+
+.card-text span.price {
+  font-weight: 700;
+}
+
+.card .btn.btn-primary {
+  background-color: #00467f !important;
+}
+
+/*--- CARD SKELETON ---*/
+
+.card-body-skeleton {
+  display: block;
+}
+
+/*--- ELEMENTS ---*/
+
+body {
+  overflow-x: hidden;
+}
+
+textarea {
+  resize: none !important;
+}
+
+footer {
+  height: 100px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* BOOTSTRAP */
+.invalid-feedback {
+  text-transform: uppercase;
+}
+
+.form-label-required:before {
+  content: "*";
+  color: #ff0000;
+  padding-right: 2px;
+  position: relative;
+}
+
+.form-label {
+  text-transform: capitalize;
+}
+
+.form-check-label {
+  text-transform: capitalize;
+}
+
+.container-fluid {
+  min-height: 100% !important;
+}
+
+.navbar-brand {
+  width: 40% !important;
+}
+
+.btn-outline-success {
+  text-transform: uppercase;
+  padding: 10px !important;
+}
