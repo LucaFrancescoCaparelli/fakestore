@@ -199,7 +199,7 @@ export function FormRegister() {
                 type='email'
                 value={email}
                 required
-                isValid={isValidEmail && email}
+                isValid={isValidEmail}
                 isInvalid={!isValidEmail && touchedEmail}
                 onChange={handleEmail}
                 onBlur={() => setTouchedEmail(true)}
@@ -222,7 +222,7 @@ export function FormRegister() {
                 value={password}
                 required
                 aria-describedby='passwordHelpBlock'
-                isValid={isValidPassword && password}
+                isValid={isValidPassword}
                 isInvalid={!isValidPassword && touchedPassword}
                 onChange={handlePassword}
                 onBlur={() => setTouchedPassword(true)}
